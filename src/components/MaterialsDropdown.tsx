@@ -139,19 +139,6 @@ const MaterialsDropdown: React.FC = () => {
       {/* Formula Details */}
       <div className="mt-6 pt-4 border-t border-gray-200">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-          <div>
-            <strong className="text-gray-700">Creator:</strong> {selectedFormula.creator || 'N/A'}
-          </div>
-          <div>
-            <strong className="text-gray-700">Category:</strong> {selectedFormula.category || 'N/A'}
-          </div>
-          <div>
-            <strong className="text-gray-700">Created:</strong> {
-              selectedFormula.created_at 
-                ? new Date(selectedFormula.created_at).toLocaleDateString()
-                : 'N/A'
-            }
-          </div>
           {selectedFormula.notes && (
             <div className="md:col-span-2">
               <strong className="text-gray-700">Notes:</strong> {selectedFormula.notes}

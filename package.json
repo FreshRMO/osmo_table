@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "CSV Table Viewer with React and @tanstack/react-table",
   "type": "module",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

@@ -1,0 +1,28 @@
+formula_id,formula_name,category,notes,material_id,material_name,qty,uom,unit_cost
+F001,Sunrise Burst,Fresh,"Bright citrus opening with zesty lemon and sweet orange",M001,Lemon Oil,10,g,0.50
+F001,Sunrise Burst,Fresh,"Bright citrus opening with zesty lemon and sweet orange",M002,Orange Oil,5,g,0.40
+F001,Sunrise Burst,Fresh,"Bright citrus opening with zesty lemon and sweet orange",M003,Alcohol,50,mL,0.10
+F002,Moonlight Petals,Floral,"Elegant rose heart with soft geranium undertones",M010,Rose Absolute,3,g,2.00
+F002,Moonlight Petals,Floral,"Elegant rose heart with soft geranium undertones",M011,Geranium Oil,4,g,1.50
+F002,Moonlight Petals,Floral,"Elegant rose heart with soft geranium undertones",M012,Alcohol,60,mL,0.10
+F003,Forest Whisper,Woody,"Deep sandalwood base with warm cedarwood notes",M020,Sandalwood Oil,8,g,3.00
+F003,Forest Whisper,Woody,"Deep sandalwood base with warm cedarwood notes",M021,Cedarwood Oil,6,g,2.50
+F003,Forest Whisper,Woody,"Deep sandalwood base with warm cedarwood notes",M022,Fixative,2,g,1.00
+F004,Sea Breeze,Fresh,"Marine freshness with salty ocean air and aquatic algae",M030,Sea Salt Extract,15,g,0.80
+F004,Sea Breeze,Fresh,"Marine freshness with salty ocean air and aquatic algae",M031,Algae Extract,8,g,1.20
+F004,Sea Breeze,Fresh,"Marine freshness with salty ocean air and aquatic algae",M032,Alcohol,45,mL,0.10
+F005,Golden Hour,Gourmand,"Rich vanilla sweetness with caramel warmth",M040,Vanilla Extract,12,g,4.50
+F005,Golden Hour,Gourmand,"Rich vanilla sweetness with caramel warmth",M041,Caramel Absolute,6,g,3.20
+F005,Golden Hour,Gourmand,"Rich vanilla sweetness with caramel warmth",M042,Tonka Bean,4,g,2.80
+F006,Spice Market,Spicy,"Warm cardamom and cinnamon with clove depth",M050,Cardamom Oil,7,g,1.80
+F006,Spice Market,Spicy,"Warm cardamom and cinnamon with clove depth",M051,Cinnamon Bark,5,g,2.20
+F006,Spice Market,Spicy,"Warm cardamom and cinnamon with clove depth",M052,Clove Oil,3,g,3.50
+F007,White Garden,Floral,"Pure jasmine with soft white musk and floral layers",M060,Jasmine Absolute,9,g,8.50
+F007,White Garden,Floral,"Pure jasmine with soft white musk and floral layers",M061,White Musk,6,g,1.50
+F007,White Garden,Floral,"Pure jasmine with soft white musk and floral layers",M062,Alcohol,55,mL,0.10
+F008,Pine Forest,Woody,"Fresh pine needles with eucalyptus clarity",M070,Pine Needle Oil,11,g,0.90
+F008,Pine Forest,Woody,"Fresh pine needles with eucalyptus clarity",M071,Eucalyptus Oil,8,g,0.75
+F008,Pine Forest,Woody,"Fresh pine needles with eucalyptus clarity",M072,Alcohol,65,mL,0.10
+F009,Ice Mint,Fresh,"Cooling peppermint with refreshing menthol crystals",M080,Peppermint Oil,10,g,0.60
+F009,Ice Mint,Fresh,"Cooling peppermint with refreshing menthol crystals",M081,Menthol Crystals,5,g,1.40
+F009,Ice Mint,Fresh,"Cooling peppermint with refreshing menthol crystals",M082,Alcohol,40,mL,0.10

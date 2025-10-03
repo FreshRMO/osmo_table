@@ -1,5 +1,15 @@
 import { MaterialRow, Formula, Material } from '../types';
 
+/**
+ * Groups flat CSV rows into structured Formula objects
+ * @param rows - Array of MaterialRow objects from parsed CSV data
+ * @returns Array of Formula objects with grouped materials and calculated totals
+ * @example
+ * ```typescript
+ * const formulas = groupRowsToFormulas(csvRows);
+ * // Returns: [{ formula_id: 'F001', name: 'Sunrise Burst', materials: [...], total_cost: 8.40 }]
+ * ```
+ */
 export function groupRowsToFormulas(rows: MaterialRow[]): Formula[] {
   // Group rows by formula_id
   const groupedRows = rows.reduce((acc, row) => {

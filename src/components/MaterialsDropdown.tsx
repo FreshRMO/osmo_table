@@ -1,7 +1,6 @@
 import React from 'react';
 import Papa from 'papaparse';
 import { useStore } from '../store';
-import { Material } from '../types';
 
 const MaterialsDropdown: React.FC = () => {
   const { formulas, selectedFormulaId, setSelectedFormulaId } = useStore();

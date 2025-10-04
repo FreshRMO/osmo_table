@@ -1,18 +1,20 @@
 # Fragrance Formula Manager
 
 A React/TypeScript application for perfumers to browse and manage fragrance formulas.
+Time Boxed to 2 and a half hours.
+
+https://osmo-table-yhag.vercel.app/ -> deployed app.
+
+To run locally, follow setup instructions and use Node v20+
 
 ## Features Implemented
 
-### Must Have ✓
 - **Formula Table**: Sortable table displaying all formulas
 - **Column Sorting**: Click headers to sort by name, cost, materials, etc.
 - **Search**: Filter formulas by name, category, or description
 - **Formula Details**: Click any row to view complete material breakdown
 - **Material Display**: Shows quantities, unit costs, and line costs
 - **Metadata**: Displays creator, category, creation date, and notes
-
-### Nice to Have ✓
 - **Category Filter**: Dropdown to filter by fragrance category
 - **Cost Calculation**: Automatic total cost calculation per formula
 - **CSV Export**: Export individual formulas to CSV format
@@ -42,7 +44,7 @@ The CSV parsing handles the key challenge of transforming flat rows into nested 
 
 ### Performance Optimizations
 - **Memoization**: useMemo for filtered data and column definitions
-- **Pagination**: TanStack Table handles large datasets efficiently
+- **Pagination**: TanStack Table handles large datasets efficiently and provides easier out the box pagination/accessibility
 - **Controlled Re-renders**: Zustand prevents unnecessary component updates
 
 ## Tech Stack
@@ -98,10 +100,10 @@ created_at: Creation date (optional)
 Assumptions & Trade-offs
 Assumptions
 
-CSV Structure: Each formula has multiple rows (one per material)
+CSV Structure: Each formula has multiple rows (one per material) Didn't see any CSV so created my own, please use and download top right.
 Unique IDs: formula_id uniquely identifies formulas
 Numeric Values: qty and unit_cost are parseable as numbers
-Browser Environment: Modern browser with ES6+ support
+Browser Environment: Modern browser with ES6+ support, please don't try to use with explorer
 
 Trade-offs
 
@@ -120,7 +122,7 @@ Single Selection: Only one formula can be viewed at a time
 In-memory Filtering: Filtering happens in React
 
 ✓ Instant results, no network latency
-✗ Not suitable if we had thousands of formulas
+✗ Not scalable
 
 
 CSV Only: Only CSV import/export
@@ -133,19 +135,16 @@ CSV Only: Only CSV import/export
 Future Enhancements
 If more time were available:
 
-Formula Comparison: Multi-select formulas to compare materials side-by-side
-PDF Export: Generate formatted PDF reports
-Batch Operations: Edit or delete multiple formulas
-Formula Creation: Add new formulas directly in the UI
-Material Library: Maintain reusable material database
-Cost Analysis: Charts showing cost breakdowns by category
-Persistence: Save formulas to localStorage or backend
+Formula Comparison: Multi-select formulas to compare materials side-by-side. Would like to implement a tab like structure for viewing single or multiple formulas.
+PDF Export: Generate formatted PDF reports.
+Batch Operations: Edit or delete multiple formulas.
+Formula Creation: Add new formulas directly in the UI.
+Cost Analysis: Charts showing cost breakdowns by category, cool ChartJS pie chart would be great.
 Advanced Search: Search by specific materials or cost ranges
 
 Questions About Domain
 
 Material Substitutions: Do perfumers need to see alternative materials?
-Dilution Ratios: Should the app handle concentration calculations?
-Batch Scaling: Do formulas need to scale up/down for production?
-Regulatory Info: Do materials need safety/allergen information?
+Dilution Ratios: Should the app handle concentration calculations? I saw chemical compositions on the website. 
 Version History: Should formula changes be tracked over time?
+Accessibililty: What levels of accessibility are we looking for? AA? AAA?

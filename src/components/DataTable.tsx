@@ -24,6 +24,11 @@ const DataTable: React.FC = () => {
 
   const [sorting, setSorting] = React.useState<SortingState>([]);
 
+  // Clear selected formula when filters change
+  React.useEffect(() => {
+    setSelectedFormulaId(null);
+  }, [search, categoryFilter, setSelectedFormulaId]);
+
   // Filter formulas before passing to react-table
   const filteredFormulas = useMemo(() => {
     return formulas.filter(formula => {

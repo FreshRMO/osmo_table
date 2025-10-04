@@ -1,6 +1,8 @@
 import { MaterialRow, Formula, Material } from '../types';
 
 /**
+ * This is the most important part of the project, the formatting of the data.
+ * I based this off the current sample-data formulas.csv
  * Groups flat CSV rows into structured Formula objects
  * @param rows - Array of MaterialRow objects from parsed CSV data
  * @returns Array of Formula objects with grouped materials and calculated totals

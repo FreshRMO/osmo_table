@@ -73,7 +73,7 @@ function App() {
         <div className="bg-white rounded-lg shadow p-6 mb-6">
           <h2 className="text-lg font-semibold text-gray-700 mb-4">Upload CSV File</h2>
           <form>
-            <label htmlFor="csv-upload" className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-gray-700 mb-2">
               Select a CSV file containing formula data
             </label>
             <input
